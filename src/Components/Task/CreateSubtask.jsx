@@ -45,7 +45,7 @@ export default function CreateSubtask({ taskId, onSubtaskCreated }) {
         return;
       }
   
-      const response = await fetch(`http://localhost:4000/tasks/${taskId}`, {
+      const response = await fetch(`https://task-mate-server.vercel.app/tasks/${taskId}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

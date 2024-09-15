@@ -18,7 +18,7 @@ const TaskCard = () => {
   // Function to fetch tasks
   const fetchTasks = async () => {
     try {
-      const res = await fetch("http://localhost:4000/tasks");
+      const res = await fetch("https://task-mate-server.vercel.app/tasks");
       if (!res.ok) {
         throw new Error("Network response was not ok");
       }
@@ -60,7 +60,7 @@ const TaskCard = () => {
   // Function to handle task update
   const handleUpdateTask = async () => {
     try {
-      const response = await fetch(`http://localhost:4000/tasks/${editingTaskId}`, {
+      const response = await fetch(`https://task-mate-server.vercel.app/tasks/${editingTaskId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -91,7 +91,7 @@ const TaskCard = () => {
   // Function to handle task deletion
   const handleDeleteTask = async (_id) => {
     try {
-      await fetch(`http://localhost:4000/tasks/${_id}`, {
+      await fetch(`https://task-mate-server.vercel.app/tasks/${_id}`, {
         method: "DELETE",
       });
       setTasks(tasks.filter((task) => task._id !== _id));

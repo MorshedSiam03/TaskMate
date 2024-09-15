@@ -39,7 +39,7 @@ const Register = () => {
     <div className="flex flex-col md:flex-row h-screen bg-primary">
       <div className="md:w-1/2 lg:w-2/5 flex flex-col justify-center p-4 lg:p-24 shadow-left">
         <img
-          src="/src/assets/Icon/DarkLogo.png"
+          src="https://raw.githubusercontent.com/MorshedSiam03/TaskMate/refs/heads/main/src/assets/Icon/DarkLogo.png?token=GHSAT0AAAAAACV2LVVRLKFYCNAAG474CP7UZXGUVYA"
           className="w-60 my-5 md:w-72 mx-auto"
           alt="Logo"
         />
@@ -157,7 +157,7 @@ const Register = () => {
           <div className="mt-6">
             <button className="flex items-center justify-center text-lg bg-white text-gray-800 font-semibold shadow-2xl w-full py-2 rounded-lg">
               <img
-                src="/src/assets/Icon/google-logo.svg"
+                src="https://raw.githubusercontent.com/MorshedSiam03/TaskMate/616fccbd8c64d27325984f521a3eea0a0e1dd71c/src/assets/Icon/google-logo.svg?token=ASRXYMP2IKV2LR3M5UPEJTLG42S2C"
                 alt="Google logo"
                 className="mr-2"
               />
@@ -176,7 +176,7 @@ const Register = () => {
       </div>
       <div className="hidden md:flex md:w-1/2 lg:w-3/5 bg-teal-200 items-center justify-center">
         <img
-          src="/src/assets/Icon/Blocks.png"
+          src="https://raw.githubusercontent.com/MorshedSiam03/TaskMate/refs/heads/main/src/assets/Icon/Blocks.png?token=GHSAT0AAAAAACV2LVVQTMPFTIOKLJE3RTXQZXGUVAA"
           className="w-full max-w-[680px]"
           alt="Blocks"
         />

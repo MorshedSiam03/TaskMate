@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer className="footer bg-slate-800 text-white p-10">
   <aside>
-  <img src="/src/assets/Icon/DarkLogo.png" className="ml-10 w-60" alt="" />
+  <img src="https://raw.githubusercontent.com/MorshedSiam03/TaskMate/refs/heads/main/src/assets/Icon/DarkLogo.png?token=GHSAT0AAAAAACV2LVVQVOVBAKCEOB5U42OYZXGUXJQ" className="ml-10 w-60" alt="" />
   </aside>
   <nav>
     <h6 className="footer-title">Services</h6>

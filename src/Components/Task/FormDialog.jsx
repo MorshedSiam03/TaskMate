@@ -38,7 +38,7 @@ export default function FormDialog() {
 
     try {
       // Post the task data to the server
-      const response = await axios.post('http://localhost:4000/tasks', formJson);
+      const response = await axios.post('https://task-mate-server.vercel.app/tasks', formJson);
       console.log('Task created:', response.data);
       handleClose();
       window.location.reload()

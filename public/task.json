@@ -1,0 +1,93 @@
+[
+  {
+    "taskId": "task001",
+    "title": "Complete Project Proposal",
+    "deadline": "2024-10-01",
+    "status": "Pending",
+    "position": 1,
+    "subtasks": [
+      {
+        "subtaskId": "subtask001",
+        "title": "Research Background",
+        "description": "Conduct thorough research on the background of the project.",
+        "deadline": "2024-09-25",
+        "status": "In Progress",
+        "position": 1
+      },
+      {
+        "subtaskId": "subtask002",
+        "title": "Draft Proposal Outline",
+        "description": "Create an outline for the project proposal, including key sections.",
+        "deadline": "2024-09-28",
+        "status": "Pending",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "taskId": "task002",
+    "title": "Prepare Presentation",
+    "deadline": "2024-10-10",
+    "status": "Pending",
+    "position": 2,
+    "subtasks": [
+      {
+        "subtaskId": "subtask003",
+        "title": "Design Slides",
+        "description": "Design slides for the presentation with appropriate visuals.",
+        "deadline": "2024-10-05",
+        "status": "Pending",
+        "position": 1
+      },
+      {
+        "subtaskId": "subtask004",
+        "title": "Practice Presentation",
+        "description": "Rehearse the presentation multiple times to ensure smooth delivery.",
+        "deadline": "2024-10-08",
+        "status": "Pending",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "taskId": "task003",
+    "title": "Develop Project Website",
+    "deadline": "2024-11-01",
+    "status": "In Progress",
+    "position": 3,
+    "subtasks": [
+      {
+        "subtaskId": "subtask005",
+        "title": "Create Wireframes",
+        "description": "Design wireframes for the website layout and structure.",
+        "deadline": "2024-10-15",
+        "status": "Pending",
+        "position": 2
+      },
+      {
+        "subtaskId": "subtask006",
+        "title": "Develop Frontend",
+        "description": "Build the frontend using React.js and Tailwind CSS.",
+        "deadline": "2024-10-30",
+        "status": "Pending",
+        "position": 1
+      },
+      {
+        "subtaskId": "subtask007",
+        "title": "Integrate Backend",
+        "description": "Connect the frontend to the backend services and APIs.",
+        "deadline": "2024-10-31",
+        "status": "Pending",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "taskId": "task004",
+    "title": "Conduct User Testing",
+    "deadline": "2024-11-15",
+    "status": "Pending",
+    "position": 4,
+    "subtasks": []
+  }
+]

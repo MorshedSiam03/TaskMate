@@ -59,34 +59,34 @@ const TaskCard = () => {
 
   // Function to handle task update
   const handleUpdateTask = async () => {
-    try {
-      const response = await fetch(`https://task-mate-server.vercel.app/tasks/${editingTaskId}`, {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          title: updatedTitle,
-          deadline: updatedDeadline,
-          status: updatedStatus,
-        }),
-      });
-  
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-  
-      // Optionally, you can parse the response if needed
-      // const updatedTask = await response.json();
-  
-      setEditingTaskId(null); // Exit editing mode
-      fetchTasks(); // Refresh the task list
-      console.log("Task updated successfully");
-    } catch (error) {
-      console.error("Error updating task:", error);
+  try {
+    const response = await fetch(`https://task-mate-server.vercel.app/tasks/${editingTaskId}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        title: updatedTitle,
+        deadline: updatedDeadline,
+        status: updatedStatus,
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
     }
-  };
-  
+
+    // Optionally, you can parse the response if needed
+    // const updatedTask = await response.json();
+
+    setEditingTaskId(null); // Exit editing mode
+    fetchTasks(); // Refresh the task list
+    console.log("Task updated successfully");
+  } catch (error) {
+    console.error("Error updating task:", error);
+  }
+};
+
 
   // Function to handle task deletion
   const handleDeleteTask = async (_id) => {

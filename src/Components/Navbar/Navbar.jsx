@@ -101,7 +101,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link>
-            <img src="https://raw.githubusercontent.com/MorshedSiam03/TaskMate/616fccbd8c64d27325984f521a3eea0a0e1dd71c/src/assets/Icon/Logo.svg?token=ASRXYMILAPEDO2HDSTDLMX3G42S6Y" className="w-48" alt="" />
+            <img src="/src/assets/Icon/Logo.svg" className="w-48" alt="" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -116,7 +116,7 @@ const Navbar = () => {
                 className="btn btn-ghost btn-circle avatar"
               >
                 <div className="w-12 rounded-full">
-                  <img alt="Profile" src={user?.photoURL || 'https://raw.githubusercontent.com/MorshedSiam03/TaskMate/refs/heads/main/src/assets/Icon/man-avatar-icon-flat-vector-19152370.jpg?token=GHSAT0AAAAAACV2LVVQNBGHXO56PR5VRDQGZXGUYOQ'} />
+                  <img alt="Profile" src={user?.photoURL || '/src/assets/Icon/man-avatar-icon-flat-vector-19152370.jpg'} />
                 </div>
               </div>
               <ul

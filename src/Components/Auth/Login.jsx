@@ -50,7 +50,7 @@ const Login = () => {
     <div className="flex flex-col md:flex-row h-screen bg-primary">
       <div className="md:w-1/2 lg:w-2/5 flex flex-col justify-center p-4 lg:p-24 shadow-left">
         <img
-          src="/src/assets/Icon/DarkLogo.png"
+          src="https://raw.githubusercontent.com/MorshedSiam03/TaskMate/refs/heads/main/src/assets/Icon/DarkLogo.png?token=GHSAT0AAAAAACV2LVVRYBA4UMYPXOTZCCFEZXGWHLA"
           className="w-60 my-5 md:w-72 mx-auto"
           alt="Logo"
         />
@@ -128,7 +128,7 @@ const Login = () => {
               onClick={handleGoogleSignIn}
             >
               <img
-                src="/src/assets/Icon/google-logo.svg"
+                src="https://raw.githubusercontent.com/MorshedSiam03/TaskMate/ea74ca263bab9bcfefae8f93fcbf4922bf968605/src/assets/Icon/google-logo.svg?token=ASRXYMLXTOVWH4H2XVIOPMTG42ZFE"
                 alt="Google logo"
                 className="mr-2"
               />
@@ -147,7 +147,7 @@ const Login = () => {
       </div>
       <div className="hidden md:flex md:w-1/2 lg:w-3/5 bg-teal-200 items-center justify-center">
         <img
-          src="/src/assets/Icon/Blocks.png"
+          src="https://raw.githubusercontent.com/MorshedSiam03/TaskMate/refs/heads/main/src/assets/Icon/Blocks.png?token=GHSAT0AAAAAACV2LVVR6YWUU7GGYNB6C4CWZXGWIZA"
           className="w-full max-w-[680px]"
           alt="Blocks"
         />

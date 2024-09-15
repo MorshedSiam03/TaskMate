@@ -61,7 +61,7 @@ const Register = () => {
                 required
               />
             </div>
-            <div className="mb-4">
+            <div className="mb-2">
               <label
                 htmlFor="email"
                 className="text-white text-lg font-semibold mb-2 block"
@@ -77,7 +77,7 @@ const Register = () => {
                 required
               />
             </div>
-            <div className="relative mb-4">
+            <div className="relative mb-2">
               <label
                 htmlFor="password"
                 className="text-white text-lg font-semibold mb-2 block"
